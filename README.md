@@ -19,6 +19,7 @@ This will be the target scratch org and will have no data until we move it from 
 ## Run the target scratch org setup script
 The script will
 - Install an unlocked package with a simple object model
+- Install link https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHs0000012hZBIAY
 
 
 

@@ -3,6 +3,6 @@
         "sobject": "Volunteer__c",
         "saveRefs": true,
         "resolveRefs": true,
-        "files": ["Volunteers.json"]
+        "files": ["Volunteer__c.json"]
     }
 ]

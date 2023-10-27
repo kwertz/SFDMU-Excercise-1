@@ -1,0 +1,8 @@
+[  
+    {
+        "sobject": "Volunteer__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["Volunteer__c.json"]
+    }
+]

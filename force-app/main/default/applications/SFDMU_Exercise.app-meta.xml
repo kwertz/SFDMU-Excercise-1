@@ -9,7 +9,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>SFDMU Excercise</label>
+    <label>SFDMU Exercise</label>
     <navType>Standard</navType>
     <tabs>Volunteer__c</tabs>
     <uiType>Lightning</uiType>

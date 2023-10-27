@@ -1,0 +1,9 @@
+{
+    "objects": [
+        {
+            "query": "SELECT ALL FROM Volunteer__c",
+            "operation": "Upsert",
+            "externalId": "Email__c"
+        }
+    ]
+}

@@ -21,7 +21,12 @@ The script will
 - Install an unlocked package with a simple object model
 - Install link https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHs0000012hZBIAY
 
+# SFDMU Move Operations
 
+sfdx sfdmu:run --sourceusername [sourceorgalias] --targetusername csvfile
+
+## Push data from CSVs to target org
+sfdx sfdmu:run --sourceusername csvfile --targetusername [targetorgalias]
 
 
 

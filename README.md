@@ -1,6 +1,7 @@
 # SFDMU Excercise 1
 
 This excercise will walk you through a basic org to org data transfer using a simple object structure.
+https://help.sfdmu.com/full-documentation/advanced-features/data-anonymization
 
 ## Authorize a Dev Hub
 This will allow you to create scratch orgs with one serving as the source org where we're getting data from & the other is the target where we are moving data to

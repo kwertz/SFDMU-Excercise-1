@@ -19,7 +19,7 @@ This will be the target scratch org and will have no data until we move it from 
 ## Run the target scratch org setup script
 The script will
 - Install an unlocked package with a simple object model
-- Install link https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHs0000012hZBIAY
+- Install link https://login.salesforce.com/packaging/installPackage.apexp?p0=04tHs0000012hZGIAY
 
 # SFDMU Move Operations
 
@@ -28,5 +28,10 @@ sfdx sfdmu:run --sourceusername [sourceorgalias] --targetusername csvfile
 ## Push data from CSVs to target org
 sfdx sfdmu:run --sourceusername csvfile --targetusername [targetorgalias]
 
-
+## Script Notes
+Setup source scratch org: 
+sfdx force:org:create -f config\project-scratch-def.json --setalias SFDMU_Source --durationdays 7 --setdefaultusername
+sf org generate password
+sf package install --package 04tHs0000012hZBIAY
+sf org assign permset --name SFDMU_Metadata
 

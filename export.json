@@ -1,7 +1,7 @@
 {
     "objects": [
         {
-            "query": "SELECT ALL FROM Volunteer__c",
+            "query": "SELECT RecordTypeId, First_Name__c, Last_Name__c, Start_Date__c, End_Date__c, Email__c, External_Id__c FROM Volunteer__c",
             "operation": "Upsert",
             "externalId": "Email__c"
         }
